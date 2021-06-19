@@ -73,15 +73,6 @@ public class MainActivity extends AppCompatActivity {
         );
     }
 
-    public static void putValues(String Alias, String value, Context context) throws GeneralSecurityException, IOException {
-        if (masterKeyAlias == null || sharedPreferences == null) {
-            createPrefInstance(context);
-        }
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString(Alias, value);
-        editor.apply();
-    }
-
     public static String getValue(Context context, String Alias) throws GeneralSecurityException, IOException {
         if (masterKeyAlias == null || sharedPreferences == null) {
             createPrefInstance(context);
@@ -92,6 +83,17 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
     }
+
+    public static void putValues(String Alias, String value, Context context) throws GeneralSecurityException, IOException {
+        if (masterKeyAlias == null || sharedPreferences == null) {
+            createPrefInstance(context);
+        }
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(Alias, value);
+        editor.apply();
+    }
+
+
 
     public static void removeValue(Context context, String[] alias) throws GeneralSecurityException, IOException {
         if (masterKeyAlias == null || sharedPreferences == null) {
