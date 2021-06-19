@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     private static void createPrefInstance(Context context) throws GeneralSecurityException, IOException {
         masterKeyAlias = MasterKeys.getOrCreate(MasterKeys.AES256_GCM_SPEC);
         sharedPreferences = EncryptedSharedPreferences.create(
-                "supercook_shared_prefs",
+                "kisaan_shared_prefs",
                 masterKeyAlias,
                 context,
                 EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
