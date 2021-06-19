@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">PlantDiseaseDetector</string>
+    <string name="app_name">kisaan</string>
+    <string name="tagline">Plant Disease Detector</string>
 </resources>

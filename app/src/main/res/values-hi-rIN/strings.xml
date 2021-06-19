@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlantDiseaseDetector</string>
+    <string name="tagline">फसल रोग डिटेक्टर</string>
+</resources>
