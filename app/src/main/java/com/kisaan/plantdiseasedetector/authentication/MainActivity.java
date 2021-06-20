@@ -40,14 +40,13 @@ public class MainActivity extends AppCompatActivity {
             try {
                 String str = getValue(MainActivity.this, ALIAS2);
                 if (str == null) {
+                    //todo go to enter details
 //                    Intent intent = new Intent(MainActivity.this, Frame47.class);
 //                    startActivity(intent);
                 } else if (str.equals("filled")) {
+                    //todo goto home
 //                    Intent intent = new Intent(MainActivity.this, Frame101.class);
 //                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-//                    startActivity(intent);
-                }else {
-//                    Intent intent = new Intent(MainActivity.this, Frame47.class);
 //                    startActivity(intent);
                 }
             } catch (GeneralSecurityException | IOException e) {
