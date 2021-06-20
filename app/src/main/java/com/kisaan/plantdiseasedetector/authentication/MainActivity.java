@@ -1,9 +1,4 @@
-package com.kisaan.plantdiseasedetector;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
-import androidx.security.crypto.EncryptedSharedPreferences;
-import androidx.security.crypto.MasterKeys;
+package com.kisaan.plantdiseasedetector.authentication;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,8 +6,14 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
+import androidx.security.crypto.EncryptedSharedPreferences;
+import androidx.security.crypto.MasterKeys;
+
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.kisaan.plantdiseasedetector.R;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
@@ -56,8 +57,8 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(intent);
             }
         } else {
-//            Intent intent = new Intent(MainActivity.this, Frame39.class);
-//            startActivity(intent);
+            Intent intent = new Intent(MainActivity.this, PhoneNumber.class);
+            startActivity(intent);
         }
         finish();
     }
