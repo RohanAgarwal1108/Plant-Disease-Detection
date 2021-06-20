@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">kisaan</string>
+    <string name="app_name" translatable="false">kisaan</string>
     <string name="tagline">Plant Disease Detector</string>
+    <string name="welcome">Welcome,</string>
+    <string name="sign_in">Sign-in to continue</string>
+    <string name="enter_code_sent_to">Enter code sent to</string>
+    <string name="edit">\u0020(edit)\u0020</string>
+    <string name="resend">Resend code in</string>
+    <string name="next">NEXT</string>
 </resources>

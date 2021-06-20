@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PlantDiseaseDetector</string>
     <string name="tagline">फसल रोग डिटेक्टर</string>
+    <string name="welcome">स्वागत हे</string>
+    <string name="sign_in">जारी रखने के लिए साइन-इन करें</string>
+    <string name="enter_code_sent_to">भेजा गया कोड दर्ज करें</string>
+    <string name="edit">\\u0020(\\संपादित करें)\\u0020</string>
+    <string name="resend">कोड फिर से भेजें</string>
+    <string name="next">पुष्टि करें</string>
 </resources>

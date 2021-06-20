@@ -13,18 +13,19 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="72dp"
         android:fontFamily="@font/gothambold"
-        android:text="Welcome,"
+        android:text="@string/welcome"
         android:textColor="@color/green"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:layout_marginTop="8dp"
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/gothammedium"
-        android:text="Sign-in to continue"
+        android:text="@string/sign_in"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textView3"
@@ -99,7 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/gothambold"
-            android:text="NEXT"
+            android:text="@string/next"
             android:textColor="@color/white"
             android:textSize="24sp" />
 
