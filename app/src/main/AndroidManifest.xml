@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PlantDiseaseDetector">
-        <activity android:name=".authentication.OtpActivity"></activity>
+        <activity android:name=".authentication.Details"></activity>
+        <activity android:name=".authentication.OtpActivity" />
         <activity android:name=".authentication.PhoneNumber" />
         <activity android:name=".authentication.MainActivity">
             <intent-filter>

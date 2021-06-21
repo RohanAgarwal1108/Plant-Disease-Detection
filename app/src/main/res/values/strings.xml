@@ -7,4 +7,6 @@
     <string name="edit">\u0020(edit)\u0020</string>
     <string name="resend">Resend code in</string>
     <string name="next">NEXT</string>
+    <string name="create_account">Create account</string>
+    <string name="details">Details</string>
 </resources>

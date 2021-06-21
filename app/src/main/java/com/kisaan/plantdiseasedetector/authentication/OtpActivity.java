@@ -54,7 +54,7 @@ public class OtpActivity extends AppCompatActivity implements View.OnClickListen
         setContentView(binding.getRoot());
 
         phno = getIntent().getExtras().getString("phone");
-        binding.phonenumber.setText(phno);
+        binding.phonenumber.setText("+91-" + phno);
         mAuth = FirebaseAuth.getInstance();
         setListeners();
         setOTPListeners();
